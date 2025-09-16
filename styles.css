@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+.hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+            max-width: 800px;
+            margin: auto;
+            gap: 32px;
+        }
+
+        .hero img {
+            max-width: 600px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .description{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .hero h1 {
+            margin: 0;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .hero p {
+            margin: 0;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .hero a {
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1em;
+            margin-top: 8px;
+        }
